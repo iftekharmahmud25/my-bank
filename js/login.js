@@ -6,13 +6,13 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     const passwordField = document.getElementById('user-password');
     const password = passwordField.value;
    
-    if(email === 'iftekharmahmud98@gmil.com' && password === 'secret')
+    if(email === 'iftekharmahmud98@gmail.com' && password === 'secret')
     {
-         console.log('valid user');
+        window.location = 'bank.html'
     }
 
     else{
-        console.log('invalid user');
+        alert('Invalid User');
     }
 
 

@@ -22,11 +22,11 @@
           </div>
           <div class="bg-green-400 p-8 rounded-xl">
             <h4 class="text-2xl font-bold">Withdraw</h4>
-            <h2 class="text-5xl">$00</h2>
+            <h2 class="text-5xl">$<span id="withdraw-total">00</span></h2>
           </div>
           <div class="bg-pink-400 p-8 rounded-xl">
             <h4 class="text-2xl font-bold">Balance</h4>
-            <h2 class="text-5xl">$1240</h2>
+            <h2 class="text-5xl">$<span id="balance-total">1240</span></h2>
           </div>
         </div>
       </section>
@@ -43,9 +43,9 @@
 
           <div class="bg-cyan-700 p-8 rounded-xl">
             <h4 class="text-2xl font-bold mb-4 text-white">Please Withdraw</h4>
-            <input  class="w-9/12 block mb-2 px-3 py-2" type="email" name="" id="user-email" placeholder=" $ Amount You Want To Deposit" />
+            <input id="withdraw-field"   class="w-9/12 block mb-2 px-3 py-2" type="email" name="" id="user-email" placeholder=" $ Amount You Want To Deposit" />
 
-          <button id="btn-deposit"  class="bg-pink-400 px-8 py-2 text-white font-medium mt-2 rounded-lg hover:bg-blue-300" >Withdraw</button>
+          <button id="btn-withdraw"  class="bg-pink-400 px-8 py-2 text-white font-medium mt-2 rounded-lg hover:bg-blue-300" >Withdraw</button>
           </div>
         </div>
       </section>
@@ -60,5 +60,6 @@
 
 
     <script src="js/deposit.js"></script>
+    <script src="js/withdraw.js"></script>
   </body>
 </html>
